@@ -8,11 +8,11 @@ Kampüsteki öğrenci ve personel için ilk yardım ve sağlık birimi bilgi asi
 
 ## Takım Üyeleri ve Roller
 
-* **Feyza Belinay Bögrek** (Hemşirelik) – **Ürün Sahibi:** 
-* **Beren Doğan** (YBS) – **İçerik ve Yayın Sorumlusu:** 
-* **İsmet Baran Kargaoğlu** (BP) – **Teknik Lider:**
-* **Sude Etyemez** (BP) – **Uygulama Geliştiricisi:** 
-* **Serhat Mazak** (BP) – **AI ve Ölçüm Sorumlusu:** 
-* **Bürge Dağ** (BP) – **Web Sayfası Sorumlusu:** 
+* **Feyza Belinay Bögrek** (Hemşirelik) – **Ürün Sahibi** 
+* **Beren Doğan** (YBS) – **İçerik ve Yayın Sorumlusu** 
+* **İsmet Baran Kargaoğlu** (BP) – **Teknik Lider**
+* **Sude Etyemez** (BP) – **Uygulama Geliştiricisi** 
+* **Serhat Mazak** (BP) – **AI ve Ölçüm Sorumlusu** 
+* **Bürge Dağ** (BP) – **Web Sayfası Sorumlusu** 
 
 > Bu bir ders projesidir.
