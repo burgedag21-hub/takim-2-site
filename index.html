@@ -1,37 +1,111 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Kampüs Sağlık Asistanı · Takım 2</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kampüs Sağlık Asistanı</title>
   <style>
-    body { font-family: system-ui, sans-serif; max-width: 760px; margin: 0 auto; padding: 24px 16px; line-height: 1.6; }
-    a.dugme { display: inline-block; padding: 10px 16px; margin: 4px 8px 4px 0; border-radius: 8px; background: #1f6feb; color: #fff; text-decoration: none; }
-    .video { position: relative; padding-top: 56.25%; }
-    .video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
-    img { max-width: 100%; border-radius: 8px; }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+      color: #0f172a;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 640px;
+      background-color: #ffffff;
+      border-radius: 20px;
+      padding: 40px 32px;
+      box-shadow: 0 12px 32px rgba(15, 23, 42, 0.08);
+      border: 1px solid #e2e8f0;
+    }
+
+    .badge {
+      display: inline-block;
+      background-color: #dcfce7;
+      color: #166534;
+      font-size: 0.85rem;
+      font-weight: 600;
+      padding: 6px 12px;
+      border-radius: 999px;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      line-height: 1.25;
+      color: #0f172a;
+      margin-bottom: 16px;
+    }
+
+    p {
+      font-size: 1.05rem;
+      line-height: 1.7;
+      color: #334155;
+      margin-bottom: 28px;
+    }
+
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      background-color: #0284c7;
+      color: #ffffff;
+      font-size: 1rem;
+      font-weight: 600;
+      padding: 14px 24px;
+      border-radius: 12px;
+      transition: background-color 0.2s ease, transform 0.15s ease;
+    }
+
+    .btn:hover {
+      background-color: #0369a1;
+      transform: translateY(-1px);
+    }
+
+    .note {
+      margin-top: 24px;
+      margin-bottom: 0;
+      font-size: 0.88rem;
+      color: #64748b;
+    }
+
+    @media (max-width: 480px) {
+      .card {
+        padding: 28px 20px;
+      }
+
+      h1 {
+        font-size: 1.6rem;
+      }
+    }
   </style>
 </head>
 <body>
-  <h1>Kampüs Sağlık Asistanı</h1>
-  <p>Kampüsteki öğrenci ve personel için ilk yardım ve sağlık birimi bilgi asistanı.</p>
-  <p>
-    <a class="dugme" href="#">Uygulamayı aç</a>
-    <a class="dugme" href="#">Android APK</a>
-    <a class="dugme" href="https://github.com/burgedag21-hub/takim-2-ilk-yardim">GitHub</a>
-  </p>
-  <h2>Tanıtım videosu</h2>
-  <div class="video">
-    <iframe src="https://www.youtube-nocookie.com/embed/VIDEO_KIMLIGI" title="Tanıtım videosu" allowfullscreen></iframe>
-  </div>
-  <h2>Nasıl kullanılır</h2>
-  <img src="ekran-1.png" alt="Ana ekran">
-  <h2>Ölçüm sonucu</h2>
-  <p>25 vakada Gemini ortalaması …, Claude ortalaması …; bir cümle yorum.</p>
-  <h2>Sürüm notları</h2>
-  <ul><li>11. hafta: Sor ekranı yayında.</li></ul>
-  <h2>Takım</h2>
-  <p>Bürge Dağ, Feyza Belinay Bögrek, Beren Doğan, İsmet Baran Kargaoğlu, Sude Etyemez, Serhat Mazak</p>
-  <p><small>Bu bir ders projesidir.</small></p>
+  <main class="card">
+    <span class="badge">İlk Yardım &amp; Sağlık Rehberi</span>
+    <h1>Kampüs Sağlık Asistanı</h1>
+    <p>
+      Kampüste biri yaralandığında ne yapacağınızı adım adım gösteren bir uygulama.
+      Teşhis koymaz, ilaç önermez; sizi doğru ilk yardıma ve sağlık birimine yönlendirir.
+    </p>
+    <a class="btn" href="https://takim-2-ilk-yardim.expo.app" target="_blank" rel="noopener noreferrer">
+      Uygulamayı dene
+    </a>
+    <p class="note">
+      Bilgilendirme amaçlıdır; acil durumlarda 112 ve kampüs sağlık birimiyle iletişime geçin.
+    </p>
+  </main>
 </body>
 </html>
