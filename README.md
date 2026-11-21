@@ -4,7 +4,7 @@ Kampüsteki öğrenci ve personel için ilk yardım ve sağlık birimi bilgi asi
 
 ## Proje Bağlantıları
 * 🌐 **Canlı Web Sitesi:** [https://burgedag21-hub.github.io/takim-2-site/](https://burgedag21-hub.github.io/takim-2-site/)
-* 📂 **Kod Deposu:** [takim-2-ilk-yardim](https://github.com/burgedag21-hub/takim-2-ilk-yardim)
+* 📁 **Kod Deposu:** [takim-2-ilk-yardim](https://github.com/ismetbaran25/takim-2-ilk-yardim)
 
 ## Takım Üyeleri ve Roller
 
