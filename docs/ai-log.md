@@ -1,1 +1,5 @@
-| 2026-11-21 | Kampüs Sağlık Asistanı tanıtım sayfasına GitHub butonu, Takım listesi ve ders projesi notu eklendi | Butonlar, takım bölümü ve alt notu içeren güncel index.html kodu alındı |
+Kim: Bürge Dağ
+Tarih: 2026-11-21
+Hangi AI: ChatGPT
+Ne istedin: Tanıtım sitesine GitHub butonu, 6 kişilik Takım listesi, 112 sağlık uyarısı ve ders projesi notunun eklenmesi
+Ne aldın: İlgili bölümleri ve uyarı notlarını içeren güncellenmiş.
