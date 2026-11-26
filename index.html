@@ -1,4 +1,173 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kampüs Sağlık Asistanı · Takım 2</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+      color: #0f172a;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 720px;
+      background-color: #ffffff;
+      border-radius: 20px;
+      padding: 40px 32px;
+      box-shadow: 0 12px 32px rgba(15, 23, 42, 0.08);
+      border: 1px solid #e2e8f0;
+    }
+
+    .badge {
+      display: inline-block;
+      background-color: #dcfce7;
+      color: #166534;
+      font-size: 0.85rem;
+      font-weight: 600;
+      padding: 6px 12px;
+      border-radius: 999px;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      line-height: 1.25;
+      color: #0f172a;
+      margin-bottom: 16px;
+    }
+
+    .intro {
+      font-size: 1.05rem;
+      line-height: 1.7;
+      color: #334155;
+      margin-bottom: 24px;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 32px;
+    }
+
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: 600;
+      padding: 13px 22px;
+      border-radius: 12px;
+      transition: background-color 0.2s ease, transform 0.15s ease;
+    }
+
+    .btn-primary {
+      background-color: #0284c7;
+      color: #ffffff;
+    }
+
+    .btn-primary:hover {
+      background-color: #0369a1;
+      transform: translateY(-1px);
+    }
+
+    .btn-secondary {
+      background-color: #f1f5f9;
+      color: #0f172a;
+      border: 1px solid #cbd5e1;
+    }
+
+    .btn-secondary:hover {
+      background-color: #e2e8f0;
+      transform: translateY(-1px);
+    }
+
+    .section {
+      border-top: 1px solid #e2e8f0;
+      padding-top: 24px;
+      margin-bottom: 24px;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      color: #0f172a;
+      margin-bottom: 12px;
+    }
+
+    .video {
+      position: relative;
+      padding-top: 56.25%;
+      border-radius: 12px;
+      overflow: hidden;
+      background: #0f172a;
+    }
+
+    .video iframe {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .notes-list,
+    .team-list {
+      list-style: none;
+      display: grid;
+      gap: 8px;
+      color: #334155;
+      font-size: 0.98rem;
+      line-height: 1.5;
+    }
+
+    .footer-notes {
+      display: grid;
+      gap: 6px;
+      font-size: 0.88rem;
+      color: #64748b;
+    }
+
+    @media (max-width: 480px) {
+      .card {
+        padding: 28px 20px;
+      }
+
+      h1 {
+        font-size: 1.6rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <span class="badge">İlk Yardım &amp; Sağlık Rehberi</span>
+    <h1>Kampüs Sağlık Asistanı</h1>
+    <p class="intro">
+      Kampüste biri yaralandığında ne yapacağınızı adım adım gösteren bir uygulama.
+      Teşhis koymaz, ilaç önermez; sizi doğru ilk yardıma ve sağlık birimine yönlendirir.
+    </p>
+
+    <div class="actions">
+      <a class="btn btn-primary" href="CANLI_UYGULAMA_LINKI" target="_blank" rel="noopener noreferrer">
+        Uygulamayı aç
+      </a>
+      <a class="btn btn-secondary" href="https://github.com/ismetbaran25/takim-2-ilk-yardim" target="_blank" rel="noopener noreferrer">
+        GitHub
+      </a>
+    </div>
 
     <section class="section">
       <h2>Short 1</h2>
@@ -35,3 +204,5 @@
       <p>Bu bir ders projesidir; tüm veriler sentetiktir.</p>
     </div>
   </main>
+</body>
+</html>
